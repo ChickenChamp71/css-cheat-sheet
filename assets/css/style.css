@@ -1,0 +1,53 @@
+:root {
+    --big-text: #e866ec;
+    --gradient: #71477a, #a353a9;
+    --outline: #e0eae5;
+    --glow-color: #b558bb;
+    --bg-color: #31363b;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 0 10% 0 10%;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 250%;
+    padding-bottom: 1%;
+}
+
+h1,
+h2,
+footer {
+    color: var(--big-text);
+    font-weight: bold;
+}
+
+#starting-p {
+    color: var(--outline);
+    padding-bottom: 3%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+h2 {
+    font-size: 200%;
+    padding: 5px;
+}
+
+.code-box {
+    background-image: linear-gradient(var(--gradient));
+    border-radius: 10px;
+    box-sizing: border-box;
+}
